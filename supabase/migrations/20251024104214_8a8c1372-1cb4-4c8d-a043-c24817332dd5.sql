@@ -1,6 +1,7 @@
 -- Create enum for organization status
 CREATE TYPE public.organization_status AS ENUM ('active', 'inactive');
 
+
 -- Create enum for user roles
 CREATE TYPE public.user_role AS ENUM ('admin', 'co-admin', 'user');
 
