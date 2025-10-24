@@ -8,6 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Building2 } from "lucide-react";
 import { toast } from "sonner";
 
+
 const Signup = () => {
   const navigate = useNavigate();
   const [fullName, setFullName] = useState("");
