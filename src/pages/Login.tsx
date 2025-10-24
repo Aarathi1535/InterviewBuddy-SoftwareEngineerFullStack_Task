@@ -7,7 +7,6 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Building2 } from "lucide-react";
 import { toast } from "sonner";
-
 const Login = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
