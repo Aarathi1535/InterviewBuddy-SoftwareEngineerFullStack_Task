@@ -11,6 +11,7 @@ import { Building2, Calendar, Globe, Clock, Languages, Users, Edit, Plus, Trash2
 import { AddUserDialog } from "@/components/AddUserDialog";
 import { ArrowLeft } from "lucide-react";
 
+
 const OrganizationDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
