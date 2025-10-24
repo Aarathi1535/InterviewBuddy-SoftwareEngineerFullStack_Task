@@ -9,6 +9,7 @@ import { StatusBadge } from "@/components/StatusBadge";
 import { AddOrganizationDialog } from "@/components/AddOrganizationDialog";
 import { useNavigate } from "react-router-dom";
 
+
 const Organizations = () => {
   const navigate = useNavigate();
   const [isAddDialogOpen, setIsAddDialogOpen] = useState(false);
